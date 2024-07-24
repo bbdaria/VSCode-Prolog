@@ -1,0 +1,14 @@
+{
+	"name": "Prolog",
+	"image": "whitomtit/vscode-prolog",
+
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"arthurwang.vsc-prolog"
+			]
+		}
+	},
+	
+	"postCreateCommand": "chmod +x .devcontainer/fetch-git.sh && ./.devcontainer/fetch-git.sh"
+}
