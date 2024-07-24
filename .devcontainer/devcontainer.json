@@ -10,5 +10,5 @@
 		}
 	},
 	
-	"postCreateCommand": "chmod +x .devcontainer/fetch-git.sh && ./.devcontainer/fetch-git.sh"
+	"postCreateCommand": "chmod +x .devcontainer/fetch-git.sh && ./.devcontainer/fetch-git.sh && chmod +x .devcontainer/welcome.sh && echo './.devcontainer/welcome.sh' >> /root/.bashrc"
 }
